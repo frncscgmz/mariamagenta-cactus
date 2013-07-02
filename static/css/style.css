@@ -1,3 +1,27 @@
 body {
-	font: 14px/1.35em Arial, Helvetica, sans-serif;
+   font: 14px/1.35em Arial, Helvetica, sans-serif;
+   background: #ECF5F5;
+}
+
+#square {
+   width:100px;
+   height:100px;
+   background: #F1D1C0;
+}
+
+#circle {
+   width:140px;
+   height:140px;
+   background: #EDECE6;
+   -moz-border-radius: 70px;
+   -webkit-border-radius: 70px;
+   border-radius: 70px;
+}
+
+#triangle {
+   width: 0;
+   height: 0;
+   border-bottom: 120px solid #ECE05C;
+   border-left: 60px solid transparent;
+   border-right: 60px solid transparent;
 }
