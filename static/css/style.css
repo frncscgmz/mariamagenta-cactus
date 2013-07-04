@@ -17,6 +17,7 @@ body {
 }
 
 #square {
+   font: 35px/1.35em Arial, Helvetica, sans-serif;
    width:200px;
    height:200px;
    background: #F1D1C0;
@@ -36,6 +37,7 @@ body {
 }
 
 #circle {
+   font: 35px/1.35em Arial, Helvetica, sans-serif;
    width:200px;
    height:200px;
    background: #EDECE6;
@@ -58,6 +60,7 @@ body {
 }
 
 #triangle {
+   font: 35px/1.35em Arial, Helvetica, sans-serif;
    width: 0;
    height: 0;
    border-bottom: 200px solid #ECE05C;
