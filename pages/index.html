@@ -2,13 +2,13 @@
 {% block content %}
 <div id="fig-container" class="container">
    <div class="one-third column">
-      <div id="square"><p>who</p></div>
+      <div id="square" onclick="location.href='{{ ROOT_URL }}/about.html';"><p>who</p></div>
    </div>
    <div class="one-third column">
-      <div id="circle"><p>what</p></div>
+      <div id="circle" onclick="location.href='{{ ROOT_URL }}/portfolio.html';"><p>what</p></div>
    </div>
    <div class="one-third column">
-      <div id="triangle"><p>where</p></div>
+      <div id="triangle" onclick="location.href='{{ ROOT_URL }}/contact.html';"><p>where</p></div>
    </div>
 </div>
 {% endblock %}
