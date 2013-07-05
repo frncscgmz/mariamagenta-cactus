@@ -25,6 +25,14 @@ body {
    transition: background 1.5s ease;
 }
 
+#square-small {
+   width:50px;
+   height:50px;
+   background: #F1D1C0;
+   margin:auto;
+   transition: background 1.5s ease;
+}
+
 #square p {
    color: #F1D1C0;
    text-align: center;
@@ -40,6 +48,17 @@ body {
    font: 35px/1.35em Arial, Helvetica, sans-serif;
    width:200px;
    height:200px;
+   background: #EDECE6;
+   -moz-border-radius: 100px;
+   -webkit-border-radius: 100px;
+   border-radius: 100px;
+   margin:auto;
+   transition: background 1.5s ease;
+}
+
+#circle-small {
+   width:50px;
+   height:50px;
    background: #EDECE6;
    -moz-border-radius: 100px;
    -webkit-border-radius: 100px;
@@ -66,6 +85,16 @@ body {
    border-bottom: 200px solid #ECE05C;
    border-left: 100px dashed transparent;
    border-right: 100px dashed transparent;
+   margin:auto;
+   transition: border-bottom 1.5s ease;
+}
+
+#triangle-small {
+   width: 0;
+   height: 0;
+   border-bottom: 50px solid #ECE05C;
+   border-left: 25px dashed transparent;
+   border-right: 25px dashed transparent;
    margin:auto;
    transition: border-bottom 1.5s ease;
 }
