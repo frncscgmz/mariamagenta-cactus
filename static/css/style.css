@@ -16,6 +16,9 @@ body {
    margin-top: 25%;
 }
 
+/* #square styles
+================================================== */
+
 #square {
    font: 35px/1.35em Arial, Helvetica, sans-serif;
    width:200px;
@@ -43,6 +46,9 @@ body {
 #square:hover {
    background: #ECF5F5;
 }
+
+/* #circle styles
+================================================== */
 
 #circle {
    font: 35px/1.35em Arial, Helvetica, sans-serif;
@@ -77,6 +83,9 @@ body {
 #circle:hover {
    background: #ECF5F5;
 }
+
+/* #triangle styles
+================================================== */
 
 #triangle {
    font: 35px/1.35em Arial, Helvetica, sans-serif;
@@ -114,4 +123,10 @@ body {
    border-bottom: 200px solid #ECF5F5;
    border-left: 100px solid #ECF5F5;
    border-right: 100px solid #ECF5F5;
+}
+
+#about-text {
+   background: #FFF;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
 }
