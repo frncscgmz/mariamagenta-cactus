@@ -1,4 +1,4 @@
+gallery.html
 index.html
 contact.html
 about.html
-portfolio.html
