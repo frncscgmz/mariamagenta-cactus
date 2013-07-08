@@ -84,49 +84,79 @@ body {
    background: #ECF5F5;
 }
 
+#hollow-circle {
+   font: 35px/1.35em Arial, Helvetica, sans-serif;
+   width:250px;
+   height:250px;
+   border: 3px solid #FFF;
+   border-radius: 18px;
+   -moz-border-radius: 150px;
+   -webkit-border-radius: 150px;
+   border-radius: 150px;
+   margin:auto;
+   transition: border 1.5s ease;
+}
+
+#hollow-circle p {
+   color: #ECF5F5;
+   text-align: center;
+   vertical-align: middle;
+   line-height: 250px;
+}
+
+#hollow-circle:hover  {
+   /*background: #ECF5F5;*/
+   border: #ECF5F5;
+}
+
+#hollow-circle:hover p  {
+   /*background: #ECF5F5;*/
+   color: #a8a8a8;
+}
+
 /* #triangle styles
 ================================================== */
 
-#triangle {
-   font: 35px/1.35em Arial, Helvetica, sans-serif;
-   width: 0;
-   height: 0;
-   border-bottom: 200px solid #ECE05C;
-   border-left: 100px dashed transparent;
-   border-right: 100px dashed transparent;
-   margin:auto;
-   transition: border-bottom 1.5s ease;
-}
+   #triangle {
+      font: 35px/1.35em Arial, Helvetica, sans-serif;
+      width: 0;
+      height: 0;
+      border-bottom: 200px solid #ECE05C;
+      border-left: 100px dashed transparent;
+      border-right: 100px dashed transparent;
+      margin:auto;
+      transition: border-bottom 1.5s ease;
+   }
 
-#triangle-small {
-   width: 0;
-   height: 0;
-   border-bottom: 50px solid #ECE05C;
-   border-left: 25px dashed transparent;
-   border-right: 25px dashed transparent;
-   margin:auto;
-   transition: border-bottom 1.5s ease;
-}
+   #triangle-small {
+      width: 0;
+      height: 0;
+      border-bottom: 50px solid #ECE05C;
+      border-left: 25px dashed transparent;
+      border-right: 25px dashed transparent;
+      margin:auto;
+      transition: border-bottom 1.5s ease;
+   }
 
-#triangle p {
-   color: #ECE05C;
-   text-align: center;
-   top: 100px;
-   left: -47px;
-   position: relative;
-   width: 93px;
-   height: 93px;
-   margin: 0px;
-}
+   #triangle p {
+      color: #ECE05C;
+      text-align: center;
+      top: 100px;
+      left: -47px;
+      position: relative;
+      width: 93px;
+      height: 93px;
+      margin: 0px;
+   }
 
-#triangle:hover {
-   border-bottom: 200px solid #ECF5F5;
-   border-left: 100px solid #ECF5F5;
-   border-right: 100px solid #ECF5F5;
-}
+   #triangle:hover {
+      border-bottom: 200px solid #ECF5F5;
+      border-left: 100px solid #ECF5F5;
+      border-right: 100px solid #ECF5F5;
+   }
 
-#about-text {
-   background: #FFF;
-   -moz-border-radius: 5px;
-   border-radius: 5px;
-}
+   #about-text {
+      background: #FFF;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+   }
