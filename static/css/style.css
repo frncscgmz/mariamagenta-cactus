@@ -53,6 +53,13 @@ body {
    color: #a8a8a8;
 }
 
+#contact-square {
+   width:20px;
+   height:20px;
+   background: #F1D1C0;
+   display: inline-block;
+}
+
 /* #circle styles
 ================================================== */
 
@@ -127,6 +134,16 @@ body {
    color: #FFF;
 }
 
+#contact-circle {
+   width:20px;
+   height:20px;
+   -moz-border-radius: 40px;
+   -webkit-border-radius: 40px;
+   border-radius: 40px;
+   background: #F1D1C0;
+   display: inline-block;
+}
+
 /* #triangle styles
 ================================================== */
 
@@ -181,6 +198,9 @@ body {
       border-radius: 5px;
    }
 
-   /*#about-text p {
-      float: right;
+   /*#about-text label {
+      float: left;
+      width: 10em;
+      margin-right: 1em;
+      text-align: right;
    }*/
