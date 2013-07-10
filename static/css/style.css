@@ -50,7 +50,7 @@ body {
 }
 
 #square:hover p {
-   color: #a8a8a8;
+   color: #FFF;
 }
 
 #contact-square {
@@ -100,7 +100,7 @@ body {
 }
 
 #circle:hover p {
-   color: #a8a8a8;
+   color: #FFF;
 }
 
 #hollow-circle {
@@ -188,7 +188,7 @@ body {
    }
 
    #triangle:hover p {
-      color: #a8a8a8;
+      color: #FFF;
    }
 
    #about-text {
