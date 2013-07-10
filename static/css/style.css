@@ -140,7 +140,7 @@ body {
    -moz-border-radius: 40px;
    -webkit-border-radius: 40px;
    border-radius: 40px;
-   background: #F1D1C0;
+   background: #EDECE6;
    display: inline-block;
 }
 
@@ -198,9 +198,12 @@ body {
       border-radius: 5px;
    }
 
-   /*#about-text label {
-      float: left;
-      width: 10em;
-      margin-right: 1em;
-      text-align: right;
+   #about-text input, textarea {
+      width: 90%;
+   }
+
+   /*#about-text label, input {
+      display: inline-block;
    }*/
+
+
