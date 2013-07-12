@@ -1,0 +1,11 @@
+*~
+*.swn
+*.swm
+*.swo
+*.swp
+*.log
+*.log.*
+build.properties
+build.xml
+config.json
+TEST*

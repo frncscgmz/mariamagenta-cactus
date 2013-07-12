@@ -198,6 +198,35 @@ body {
       border-radius: 5px;
    }
 
+
+   /* #home styles
+   ================================================== */
+   #home-small {
+      font: 12px/1.35em Arial, Helvetica, sans-serif;
+      font-family: 'Julius Sans One', sans-serif;
+      color: #FFF;
+      text-align: center;
+      vertical-align: middle;
+      line-height: 50px;
+      margin: auto;
+      transition: color 1.0s ease;
+   }
+
+   #home-small:hover {
+      color: #000;
+   }
+
+   #p-where {
+      font: 35px/1.35em Arial, Helvetica, sans-serif;
+      font-family: 'Julius Sans One', sans-serif;
+      color: #FFF;
+      float: right;
+      text-align: center;
+      vertical-align: middle;
+      line-height: 50px;
+      margin: auto;
+   }
+
    #about-text input, textarea {
       width: 90%;
    }
