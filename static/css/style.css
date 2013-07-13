@@ -5,6 +5,9 @@ html, body {
 body {
    font: 14px/1.35em Arial, Helvetica, sans-serif;
    background: #ECF5F5;
+   margin:0;
+   padding:0;
+   height:100%;
 }
 
 #main-container {
@@ -14,6 +17,12 @@ body {
 
 #fig-container {
    margin-top: 25%;
+}
+
+#footer {
+   position:absolute;
+   bottom:0;
+   height:40px;   /* Height of the footer */
 }
 
 /* #square styles
