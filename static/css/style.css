@@ -25,6 +25,11 @@ body {
    height:40px;   /* Height of the footer */
 }
 
+#footer p {
+   font-family: 'Quicksand', sans-serif;
+   color: #FFF;
+}
+
 /* #square styles
 ================================================== */
 
@@ -205,8 +210,12 @@ body {
       background: #FFF;
       -moz-border-radius: 5px;
       border-radius: 5px;
+      height: 500px;
    }
 
+   #about-text input, textarea {
+      width: 90%;
+   }
 
    /* #home styles
    ================================================== */
@@ -235,13 +244,3 @@ body {
       line-height: 50px;
       margin: auto;
    }
-
-   #about-text input, textarea {
-      width: 90%;
-   }
-
-   /*#about-text label, input {
-      display: inline-block;
-   }*/
-
-
