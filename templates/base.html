@@ -22,6 +22,7 @@
       <!-- CSS
       ================================================== -->
       <link rel="stylesheet" href="{{ STATIC_URL }}/css/style.css">
+      <link rel="stylesheet" href="{{ STATIC_URL }}/css/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
 
       <!-- Fonts
       ================================================== -->
@@ -43,10 +44,9 @@
       </div>
 
       {% block scripts %}
-      <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>-->
       <script src="{{ STATIC_URL }}/js/jquery.js"></script>
-      <script src="{{ STATIC_URL }}/js/jquery.colorbox.js"></script>
-      <script src="{{ STATIC_URL }}/js/jquery.photoset-grid.min.js"></script>
+      <script src="{{ STATIC_URL }}/js/jquery.fancybox.pack.js?v=2.1.5"></script>
+      <script src="{{ STATIC_URL }}/js/masonry.pkgd.js"></script>
       <script src="{{ STATIC_URL }}/js/holder.js"></script>
       <script src="{{ STATIC_URL }}/js/main.js"></script>
       {% endblock %}

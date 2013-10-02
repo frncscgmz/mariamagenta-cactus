@@ -171,7 +171,7 @@ body {
       border-right: 100px dashed transparent;
       margin:auto;
       margin-top:15px;
-      transition: border-bottom 1.5s ease;
+      transition: border 1.5s ease;
    }
 
    #triangle-small {
@@ -244,3 +244,8 @@ body {
       line-height: 50px;
       margin: auto;
    }
+
+   /* .item styles
+   ================================================== */
+   .item { width: 25%; }
+   .item.w2 { width: 50%; }
